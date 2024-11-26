@@ -1,0 +1,121 @@
+body {
+    background-color: rgb(41, 41, 41);
+    display: flex;
+    justify-content: center;
+}
+.fondo {
+    height: 100%;
+    width: 90%;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+.divtitulo {
+    font-family: Arial, Helvetica, sans-serif;
+    border: solid 8px purple;
+    width: 100%;
+    flex-direction: column;
+    text-align: center;
+}
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+}
+h2 {
+    font-size: 24px;
+    color: purple;
+    font-weight: bolder;
+}
+li {
+    font-size: 20px;
+    font-weight: bold;
+}
+nav {
+    background-color: rgb(92, 12, 92);
+    height: 100px;
+    width: 100%;
+}
+.listanav {
+    list-style-type: none;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+}
+.listanav li {
+    margin-left: 10px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    margin-right: 60px;
+    margin-top: 20px;
+
+}
+.listanav a {
+    text-decoration: none;
+    color: inherit;
+}
+.listanav a:hover {
+    background-color: rgb(207, 207, 207);
+    color: black;
+    padding: 20px;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    background-color: #fff;
+}
+
+thead {
+    background-color: #85047e;
+    color: white;
+}
+
+th, td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    font-size: 1.1em;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+tbody tr:hover {
+    background-color: #ffceff;
+}
+.divnombre {
+    display: flex;
+    margin-top: 20px;
+}
+.moai {
+    width: 200px;
+    margin-right: 300px;
+}
+
+.listadatos {
+    font-family: Arial, Helvetica, sans-serif;
+}
+/*FOOTER*/
+.listafoot {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(92, 12, 92);
+    margin-bottom: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    
+    }
+    footer {
+    max-height: 40px;
+    font-size:20px;
+    font-weight: bold;
+    width: 100%;
+    }

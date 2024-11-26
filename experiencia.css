@@ -1,0 +1,106 @@
+body {
+    background-color: rgb(41, 41, 41);
+    display: flex;
+    justify-content: center;
+}
+.fondo {
+    height: 100%;
+    width: 90%;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+.divtitulo {
+    font-family: Arial, Helvetica, sans-serif;
+    border: solid 8px purple;
+    width: 100%;
+    flex-direction: column;
+    text-align: center;
+}
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+h2 {
+    font-size: 24px;
+    color: purple;
+    font-weight: bolder;
+    font-family: Arial, Helvetica, sans-serif;
+}
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+li {
+    font-size: 20px;
+    font-weight: bold;
+}
+nav {
+    background-color: rgb(92, 12, 92);
+    height: 100px;
+    width: 100%;
+}
+.listanav {
+    list-style-type: none;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+}
+.listanav li {
+    margin-left: 10px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    margin-right: 60px;
+    margin-top: 20px;
+
+}
+.listanav a {
+    text-decoration: none;
+    color: inherit;
+}
+.listanav a:hover {
+    background-color: rgb(207, 207, 207);
+    color: black;
+    padding: 20px;
+}
+
+.divnombre {
+    display: flex;
+    margin-top: 20px;
+}
+.moai {
+    width: 200px;
+    margin-right: 300px;
+}
+.divblanco {
+    background-color: rgb(255, 196, 255);
+    text-align: center;
+    height: 250px;
+    width: 65%;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.5);
+}
+.listadatos {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*FOOTER*/
+.listafoot {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(92, 12, 92);
+    margin-bottom: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    
+    }
+    footer {
+    max-height: 40px;
+    font-size:20px;
+    font-weight: bold;
+    width: 100%;
+    }
